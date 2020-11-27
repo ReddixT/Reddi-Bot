@@ -1,7 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require('./config.json');
+const token = require('./token.json');
 var prefix = config.prefix;
+
 const fs = require('fs');
 
 client.once('ready', () => {
@@ -27,4 +29,4 @@ client.on('message', message => {
         message.channel.send("This is your new prefix: " + prefix);
     }
 });
-client.login(config.token);
+client.login(token.token);
