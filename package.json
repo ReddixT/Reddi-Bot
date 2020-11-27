@@ -1,0 +1,25 @@
+{
+  "name": "reddibot",
+  "version": "0.0.1",
+  "description": "my first bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReddixT/Reddi-Bot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "Reddix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReddixT/Reddi-Bot/issues"
+  },
+  "homepage": "https://github.com/ReddixT/Reddi-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1"
+  }
+}
